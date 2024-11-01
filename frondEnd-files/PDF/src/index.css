@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.transition {
+  transition: background-color 0.10s ease, color 0.10s ease; /* Adjust timing as needed */
+}
